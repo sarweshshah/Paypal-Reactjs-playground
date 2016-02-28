@@ -1,3 +1,4 @@
+@import "./node_modules/paypal-vxpattern-lib/dist/buttons/_buttons.less";
 body {
     background: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -90,4 +91,25 @@ ul {
 
 .panel-heading:hover h4 {
     text-decoration: underline;
+}
+
+.fileUploadBtn {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #c0c0c0;
+}
+
+.fileUploadBtn input.uploadedFile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 100%;
+    width: 100%;
 }

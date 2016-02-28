@@ -4,9 +4,14 @@
   "main": "index.js",
   "dependencies": {
     "babelify": "^6.3.0",
+    "classnames": "^2.2.3",
+    "filereader": "^0.10.3",
+    "moment": "^2.11.2",
     "paypal-vxpattern-lib": "^0.2.0",
     "react": "^0.14.0-rc1",
+    "react-datepicker": "^0.23.2",
     "react-dom": "^0.14.0-rc1",
+    "react-dropzone": "^3.3.2",
     "watchify": "^3.4.0"
   },
   "scripts": {
